@@ -21,7 +21,6 @@ from stations.views import StationsViewSet
 
 router = routers.DefaultRouter()
 router.register(r'stations', StationsViewSet)
-print(router.urls)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
